@@ -13,7 +13,7 @@ class CreateCostumes < ActiveRecord::Migration[5.2]
     create_table :costumes do |t|
       t.integer :name
       t.float :price
-      t.size :string
+      t.string :size
       t.image_url :string
     end
   end
